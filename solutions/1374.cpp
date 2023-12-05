@@ -7,12 +7,12 @@ public:
     if (n % 2 != 0)
     {
       for (int i = 0; i < n; i++)
-        res += 'p';
+        res += 'a';
     }
     else
     {
       for (int i = 0; i < n - 1; i++)
-        res += 'z';
+        res += 'a';
       res += 'b';
     }
     return res;
